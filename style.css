@@ -1,0 +1,54 @@
+.box {
+  width: 700px;
+  height: 400px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.message p,h1,p{
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  text-align: center;
+}
+
+.box h1 {
+  padding-top: 150px;
+  color: fff;
+  font-size: 50px;
+  font-family: "Anton", sans-serif;
+}
+
+.box p {
+  font-family: "Righteous", cursive;
+  margin: 0px;
+  padding: 0px;
+}.link{
+  padding: 10px;
+  text-align: center;
+  display: flow-root;
+  color: white;
+  text-decoration: none;
+}
+.link:hover{
+  color: burlywood;
+}
+
+@media only screen and (max-width: 767px) {
+  .box {
+    width: 100%;
+    height: 100vh;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .text {
+    position: relative;
+    top: 25vh;
+  }
+}
